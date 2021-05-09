@@ -1,0 +1,34 @@
+/* h1{
+    text-transform: uppercase;
+    font-family: monospace;
+    text-align: center;
+    font-weight: 100;
+    font-size: 40px;
+    letter-spacing: 20px;
+    text-decoration: underline wavy plum;
+} */
+h1{
+    font-weight: bold;
+}
+
+li{
+    color: blue;
+}
+.done{
+    color: grey;
+}
+
+#clear{
+    background-color: red;
+    color: white;
+}
+
+header a {
+    font-size: 30px;
+    color: teal;
+}
+
+#dislikes a {
+    font-weight: bold;
+    color: red;
+}
