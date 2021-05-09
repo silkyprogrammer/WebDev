@@ -32,3 +32,21 @@ header a {
     font-weight: bold;
     color: red;
 }
+
+.card{
+    width: 210px;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: grey;
+    border-style: solid;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+img{
+    width: 200px;
+    border-color:rgb(236, 183, 191);
+    border-radius: 50%;
+    border-width: 5px;
+    border-style: solid;
+}
