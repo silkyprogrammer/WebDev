@@ -15,3 +15,31 @@ acctBalance += 1;
 const boilingPointC = 100;
 const boilingPointF = 212;
 
+let iCare4U = true;
+iCare4U = 1; // YOU CAN , BUT DON'T DO THIS.
+iCare4U = false;
+
+// Strings
+let username = "Tommy"
+
+let bestColor = "purple";
+let quote = "You had me at \"hello\"";
+
+let tommysColor = username + "-" + bestColor;
+
+const message = "    TASTE THE RAINBOW!  ";
+const whisper = message.toLowerCase().trim();
+
+let tvShow = "catdog"
+
+const word = "skateboard";
+const facialHair = word.slice(5).replace("o", "e")
+
+// Template literals are embedded expressions that evaluates to strings.
+
+Math.PI;
+Math.round(4.9);
+Math.abs(-456);
+Math.pow(2, 3)
+Math.random()
+Math.floor(Math.random() * 10) + 1 // To start the random numbers from 1 to 10
