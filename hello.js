@@ -43,3 +43,11 @@ Math.abs(-456);
 Math.pow(2, 3)
 Math.random()
 Math.floor(Math.random() * 10) + 1 // To start the random numbers from 1 to 10
+
+const die1 = Math.floor(Math.random() * 6) + 1;
+const die2 = Math.floor(Math.random() * 6) + 1;
+const roll = `You rolled a ${die1} and a ${die2}. They sum to ${die1 + die2}` //TEMPLATE Literal
+
+
+// == or === (Equals and Strictly equal)
+//== will check both LHS and RHS , but not their type
