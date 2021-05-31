@@ -60,3 +60,31 @@ function lastElement(arr) {
     }
     console.log(arr[arr.length - 1]);
 }
+
+// var variables can be accessed outside blocks.
+
+// Function expression
+const squareq = function (x) {
+    return x * x;
+}
+
+const square = {
+    area: function (side) {
+        return side * side;
+    },
+    perimeter: function (side) {
+        return 4 * side;
+    }
+}
+
+
+const hen = {
+    name: "Helen",
+    eggCount: 0,
+    layAnEgg: function () {
+        this.eggCount += 1;
+        // console.log("EGG");
+        return "EGG"
+    }
+}
+
